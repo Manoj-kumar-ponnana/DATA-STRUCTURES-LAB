@@ -14,11 +14,6 @@ void main()
 	printf("enter the size of the stack :");
 	scanf("%d",&max);
 	int stack[max];
-	printf("\nenter the elements of stack:");
-	for(i=0;i<=max;i++)
-	{
-	scanf("%d",stack[i]);
-	}
 	do
 	{
 		printf("\n*****MAIN MENU*****");
