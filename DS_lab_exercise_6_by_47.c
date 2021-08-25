@@ -57,8 +57,8 @@ void push(int max,int stack[max])
 	int val;
 	printf("\n enter the number to push into the stack :");
 	scanf("%d",&val);
-	if(top==-1)
-		printf("\n stack is nunderflow");
+	if(top==max-1)
+		printf("\n stack is underflow");
 	else
 	{
 		top++;
